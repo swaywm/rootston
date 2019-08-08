@@ -9,10 +9,10 @@
 #include <wlr/types/wlr_pointer.h>
 #include <wlr/util/log.h>
 #include <xkbcommon/xkbcommon.h>
-#include "rootston/bindings.h"
-#include "rootston/input.h"
-#include "rootston/keyboard.h"
-#include "rootston/seat.h"
+#include "bindings.h"
+#include "input.h"
+#include "keyboard.h"
+#include "seat.h"
 
 static ssize_t pressed_keysyms_index(xkb_keysym_t *pressed_keysyms,
 		xkb_keysym_t keysym) {

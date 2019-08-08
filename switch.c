@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <wlr/util/log.h>
-#include "rootston/bindings.h"
+#include "bindings.h"
 
 void roots_switch_handle_toggle(struct roots_switch *switch_device,
 		struct wlr_event_switch_toggle *event) {

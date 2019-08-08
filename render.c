@@ -10,9 +10,9 @@
 #include <wlr/types/wlr_linux_dmabuf_v1.h>
 #include <wlr/util/log.h>
 #include <wlr/util/region.h>
-#include "rootston/layers.h"
-#include "rootston/output.h"
-#include "rootston/server.h"
+#include "layers.h"
+#include "output.h"
+#include "server.h"
 
 struct render_data {
 	pixman_region32_t *damage;

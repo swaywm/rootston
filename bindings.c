@@ -3,8 +3,8 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <wlr/util/log.h>
-#include "rootston/bindings.h"
-#include "rootston/view.h"
+#include "bindings.h"
+#include "view.h"
 
 static bool outputs_enabled = true;
 

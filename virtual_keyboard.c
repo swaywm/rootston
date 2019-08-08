@@ -2,8 +2,8 @@
 
 #include <wlr/util/log.h>
 #include <wlr/types/wlr_virtual_keyboard_v1.h>
-#include "rootston/virtual_keyboard.h"
-#include "rootston/seat.h"
+#include "virtual_keyboard.h"
+#include "seat.h"
 
 void handle_virtual_keyboard(struct wl_listener *listener, void *data) {
 	struct roots_desktop *desktop =

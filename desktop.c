@@ -26,12 +26,12 @@
 #include <wlr/types/wlr_xdg_shell_v6.h>
 #include <wlr/types/wlr_xdg_shell.h>
 #include <wlr/util/log.h>
-#include "rootston/layers.h"
-#include "rootston/seat.h"
-#include "rootston/server.h"
-#include "rootston/view.h"
-#include "rootston/virtual_keyboard.h"
-#include "rootston/xcursor.h"
+#include "layers.h"
+#include "seat.h"
+#include "server.h"
+#include "view.h"
+#include "virtual_keyboard.h"
+#include "xcursor.h"
 #include "wlr-layer-shell-unstable-v1-protocol.h"
 
 static bool view_at(struct roots_view *view, double lx, double ly,

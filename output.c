@@ -12,10 +12,10 @@
 #include <wlr/types/wlr_xdg_shell.h>
 #include <wlr/util/log.h>
 #include <wlr/util/region.h>
-#include "rootston/config.h"
-#include "rootston/layers.h"
-#include "rootston/output.h"
-#include "rootston/server.h"
+#include "config.h"
+#include "layers.h"
+#include "output.h"
+#include "server.h"
 
 /**
  * Rotate a child's position relative to a parent. The parent size is (pw, ph),

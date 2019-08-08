@@ -12,10 +12,10 @@
 #include <wlr/types/wlr_surface.h>
 #include <wlr/types/wlr_layer_shell_v1.h>
 #include <wlr/util/log.h>
-#include "rootston/desktop.h"
-#include "rootston/layers.h"
-#include "rootston/output.h"
-#include "rootston/server.h"
+#include "desktop.h"
+#include "layers.h"
+#include "output.h"
+#include "server.h"
 
 static void apply_exclusive(struct wlr_box *usable_area,
 		uint32_t anchor, int32_t exclusive,

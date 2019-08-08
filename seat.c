@@ -15,12 +15,12 @@
 #include <wlr/types/wlr_tablet_v2.h>
 #include <wlr/types/wlr_xcursor_manager.h>
 #include <wlr/util/log.h>
-#include "rootston/cursor.h"
-#include "rootston/input.h"
-#include "rootston/keyboard.h"
-#include "rootston/seat.h"
-#include "rootston/text_input.h"
-#include "rootston/xcursor.h"
+#include "cursor.h"
+#include "input.h"
+#include "keyboard.h"
+#include "seat.h"
+#include "text_input.h"
+#include "xcursor.h"
 
 static void handle_keyboard_key(struct wl_listener *listener, void *data) {
 	struct roots_keyboard *keyboard =

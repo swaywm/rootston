@@ -15,7 +15,7 @@ https://github.com/benhoyt/inih
 #include <ctype.h>
 #include <string.h>
 
-#include "rootston/ini.h"
+#include "ini.h"
 
 #if !INI_USE_STACK
 #include <stdlib.h>

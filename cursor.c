@@ -8,10 +8,10 @@
 #include <wlr/util/log.h>
 #include <wlr/util/region.h>
 #include <linux/input-event-codes.h>
-#include "rootston/cursor.h"
-#include "rootston/desktop.h"
-#include "rootston/view.h"
-#include "rootston/xcursor.h"
+#include "cursor.h"
+#include "desktop.h"
+#include "view.h"
+#include "xcursor.h"
 
 struct roots_cursor *roots_cursor_create(struct roots_seat *seat) {
 	struct roots_cursor *cursor = calloc(1, sizeof(struct roots_cursor));

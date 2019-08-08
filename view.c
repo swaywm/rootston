@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include <wlr/types/wlr_output_layout.h>
-#include "rootston/desktop.h"
-#include "rootston/input.h"
-#include "rootston/seat.h"
-#include "rootston/server.h"
-#include "rootston/view.h"
+#include "desktop.h"
+#include "input.h"
+#include "seat.h"
+#include "server.h"
+#include "view.h"
 
 void view_init(struct roots_view *view, const struct roots_view_interface *impl,
 		enum roots_view_type type, struct roots_desktop *desktop) {

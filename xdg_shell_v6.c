@@ -6,9 +6,9 @@
 #include <wlr/types/wlr_surface.h>
 #include <wlr/types/wlr_xdg_shell_v6.h>
 #include <wlr/util/log.h>
-#include "rootston/desktop.h"
-#include "rootston/input.h"
-#include "rootston/server.h"
+#include "desktop.h"
+#include "input.h"
+#include "server.h"
 
 static const struct roots_view_child_interface popup_impl;
 

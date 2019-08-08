@@ -1,8 +1,8 @@
 #include <assert.h>
 #include <stdlib.h>
 #include <wlr/util/log.h>
-#include "rootston/seat.h"
-#include "rootston/text_input.h"
+#include "seat.h"
+#include "text_input.h"
 
 static struct roots_text_input *relay_get_focusable_text_input(
 		struct roots_input_method_relay *relay) {

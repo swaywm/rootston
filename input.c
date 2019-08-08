@@ -11,11 +11,11 @@
 #if WLR_HAS_XWAYLAND
 #include <wlr/xwayland.h>
 #endif
-#include "rootston/config.h"
-#include "rootston/input.h"
-#include "rootston/keyboard.h"
-#include "rootston/seat.h"
-#include "rootston/server.h"
+#include "config.h"
+#include "input.h"
+#include "keyboard.h"
+#include "seat.h"
+#include "server.h"
 
 static const char *device_type(enum wlr_input_device_type type) {
 	switch (type) {

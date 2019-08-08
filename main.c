@@ -9,8 +9,8 @@
 #include <wlr/config.h>
 #include <wlr/render/wlr_renderer.h>
 #include <wlr/util/log.h>
-#include "rootston/config.h"
-#include "rootston/server.h"
+#include "config.h"
+#include "server.h"
 
 struct roots_server server = { 0 };
 

@@ -12,10 +12,10 @@
 #include <wlr/config.h>
 #include <wlr/types/wlr_box.h>
 #include <wlr/util/log.h>
-#include "rootston/config.h"
-#include "rootston/ini.h"
-#include "rootston/input.h"
-#include "rootston/keyboard.h"
+#include "config.h"
+#include "ini.h"
+#include "input.h"
+#include "keyboard.h"
 
 static void usage(const char *name, int ret) {
 	fprintf(stderr,
